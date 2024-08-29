@@ -36,6 +36,30 @@ This repository contains a React-based calendar application developed as part of
    ```bash
    git clone https://github.com/<your-username>/react-calendar-app.git
    cd react-calendar-app
+
 2. Install dependencies:
     ```bash
     npm install
+
+3. Start the development server
+    ```bash
+    npm start
+
+### Mock API Setup
+
+The application uses Beeceptor for mocking API requests. You can create mock endpoints by following these steps:
+
+1. Go to Beeceptor and create a new mock API.
+2. Set up the following endpoints:
+- **GET** /events: Retrieve a list of events.
+- **POST** /events: Add a new event.
+PUT /events/{id}: Edit an existing event.
+DELETE /events/{id}: Delete an event.
+Replace the API URLs in the application with your Beeceptor URLs.
+Deployment
+To deploy the application, use a platform like Vercel or Netlify:
+
+Link your GitHub repository.
+Deploy the app directly from the platform's dashboard.
+Testing
+The application includes tests for key functionalities using Jest and React Testing Library. To run the tests, use:
