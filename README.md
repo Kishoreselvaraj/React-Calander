@@ -70,6 +70,17 @@ To deploy the application, use a platform like Vercel or Netlify:
 ### Testing
 
 The application includes tests for key functionalities using Jest and React Testing Library. To run the tests, use:
+code:
     ```bash
     npm test
 
+### Project Structure
+- /src: Contains the source code.
+- /components: Reusable components like Calendar, EventForm, etc.
+- /hooks: Custom hooks for managing state and side effects.
+- /api: API integration and mock service.
+- /styles: Styled-components and CSS modules.
+- /tests: Unit and integration tests.
+
+### Author
+- **Name** : Kishore Selvaraj
