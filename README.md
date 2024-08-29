@@ -1,2 +1,0 @@
-# React-Calander
- demo project
