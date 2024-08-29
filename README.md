@@ -44,22 +44,36 @@ This repository contains a React-based calendar application developed as part of
 3. Start the development server
     ```bash
     npm start
+    or 
+    yarn start
 
 ### Mock API Setup
 
 The application uses Beeceptor for mocking API requests. You can create mock endpoints by following these steps:
 
 1. Go to Beeceptor and create a new mock API.
+
 2. Set up the following endpoints:
+
 - **GET** /events: Retrieve a list of events.
 - **POST** /events: Add a new event.
-PUT /events/{id}: Edit an existing event.
-DELETE /events/{id}: Delete an event.
-Replace the API URLs in the application with your Beeceptor URLs.
-Deployment
+- **PUT** /events/{id}: Edit an existing event.
+- **DELETE** /events/{id}: Delete an event.
+
+3. Replace the API URLs in the application with your Beeceptor URLs.
+
+### Deployment
+
 To deploy the application, use a platform like Vercel or Netlify:
 
-Link your GitHub repository.
-Deploy the app directly from the platform's dashboard.
-Testing
+1. Link your GitHub repository.
+2. Deploy the app directly from the platform's dashboard.
+
+### Testing
+
 The application includes tests for key functionalities using Jest and React Testing Library. To run the tests, use:
+    ```bash
+    npm test
+    or
+    ```bash
+    yarn test
