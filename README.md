@@ -36,3 +36,6 @@ This repository contains a React-based calendar application developed as part of
    ```bash
    git clone https://github.com/<your-username>/react-calendar-app.git
    cd react-calendar-app
+2. Install dependencies:
+    ```bash
+    npm install
