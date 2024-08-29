@@ -44,8 +44,6 @@ This repository contains a React-based calendar application developed as part of
 3. Start the development server
     ```bash
     npm start
-    or 
-    yarn start
 
 ### Mock API Setup
 
@@ -74,6 +72,4 @@ To deploy the application, use a platform like Vercel or Netlify:
 The application includes tests for key functionalities using Jest and React Testing Library. To run the tests, use:
     ```bash
     npm test
-    or
-    ```bash
-    yarn test
+
